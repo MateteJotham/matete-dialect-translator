@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialect Translator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Dialect Translator</h1>
+    <div class="selectors">
+      <select id="fromLang">
+        <option value="luhya">Luhya</option>
+        <option value="luo">Luo</option>
+        <option value="kikuyu">Kikuyu</option>
+        <option value="swahili">Swahili</option>
+        <option value="sheng">Sheng</option>
+        <option value="other">Other</option>
+      </select>
+      <select id="toLang">
+        <option value="english">English</option>
+        <option value="chinese">Simplified Chinese</option>
+      </select>
+    </div>
+    <textarea id="inputText" placeholder="Enter phrase..."></textarea>
+    <button onclick="translate()">Translate 🔄</button>
+    <div id="output"></div>
+    <button onclick="playAudio()">🔊 Play</button>
+    <button onclick="showProverb()">📖 Show Proverb</button>
+    <div id="proverbBox"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

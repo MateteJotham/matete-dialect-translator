@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+select, textarea, button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1em;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+#output, #proverbBox {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e9f5e9;
+  border-left: 4px solid #4caf50;
+}
