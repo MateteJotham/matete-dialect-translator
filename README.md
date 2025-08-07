@@ -1,0 +1,2 @@
+Kenya Trivia Game Leaderboard
+The Leaderboard tracks top-performing players in the Kenya Trivia Game, showcasing their scores, speed, and accuracy across various cultural and historical questions. It celebrates knowledge and friendly competition, encouraging users to climb the ranks by mastering Kenyan trivia. Whether you're a casual player or a trivia enthusiast, the leaderboard adds a dynamic, competitive edge to the experience.
